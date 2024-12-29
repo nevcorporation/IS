@@ -1,0 +1,166 @@
+body {
+    background-color: rgb(201, 201, 201);
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    user-select: none;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    height: 50pt;
+    padding: 10pt;
+    display: flex;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.options > * {
+    padding: 10pt;
+}
+
+.options h3:hover {
+    cursor: pointer;
+    color: grey;
+}
+
+.logo {
+    width: 70pt;
+    margin-left: -10pt;
+}
+
+.warning {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10pt;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30%;
+}
+
+.warning button {
+    width: 100%;
+    height: 30pt;
+    font-size: x-large;
+}
+.warning button:hover {
+    cursor: pointer;
+}
+
+.warning img{
+    width: 50pt;
+}
+
+
+.logholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20pt;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 25%;
+    background-color: whitesmoke;
+    width: 300pt;
+}
+.logholder button {
+    width: 100%;
+    height: 30pt;
+    font-size: x-large;
+}
+.logholder button:hover {
+    cursor: pointer;
+}
+
+.logholder img{
+    width: 100pt;
+}
+
+
+.logholder input {
+    width: 90%;
+    height: 20pt;
+}
+
+.logholder > * {
+    margin-top: 10pt;
+}
+
+
+.fileholder {
+    background-color: rgb(180, 180, 180);
+    width: 98%;
+    height: 300pt;
+    padding: 10pt;
+    display: flex;
+    flex-direction: column;
+}
+
+.file {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: smaller;
+    font-weight: 600;
+}
+
+.file img {
+    width: 10pt;
+}
+
+.file > * {
+    padding: 2pt;
+}
+
+.file:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.block {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+    display: none;
+}
+
+.pageview {
+    background-color: white;
+    position: absolute;
+    width: 60%;
+    height: 100pt;
+    z-index: 2;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 92%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 10pt;
+    display: none;
+    flex-direction: column;
+}
+
+.is {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.is img {
+    width: 10pt;
+}

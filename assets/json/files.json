@@ -1,0 +1,15 @@
+{
+    "doc":[
+        {
+            "name":"Coal",
+            "files":[
+                {
+                    "name":"Basic Coal Drill Instructions",
+                    "data": {
+                        "html": "<h1>Coal Drill Setup and use</h1> <hr> <h3>Setup:</h3> <p>Please buy these 3 items before following these instructions</p> <div style='margin-left: 10pt;'> <li>Solar Panels</li> <li>Truck Depos</li> <li>Coal Drills</li> </div> <p>To get started place down all these items in this order:</p> <img src='assets/images/Screenshot 2024-12-04 065142.png'> <p>Next use the cable tool which looks like this:</p> <img src='assets/images/Screenshot 2024-12-04 065156.png' alt=''> <p>Click on the power node on the solar panel and then drag it over to the other power node on the coal drill then click on the power node. After you do this it should look like this:</p> <img src='assets/images/Screenshot 2024-12-04 065212.png'> <p>And this part of the coal drill should start turning:</p> <img src='assets/images/Screenshot 2024-12-04 065223.png'> <p>Then use this tool to make the pipes:</p> <img src='assets/images/Screenshot 2024-12-04 065250.png' alt=''> <p>Please buy the blocky short pipes to make a setup like this:</p> <img src='assets/images/Screenshot 2024-12-04 065441.png' alt=''> <p>Make sure that all the arrows face towards the yellow item node to take coal out of the drill</p> <p>If done correctly, your ui on the building should have bar that will start to fill up.</p> <img src='assets/images/Screenshot 2024-12-04 065422.png' alt=''> <p>Your whole setup should look like this:</p> <img src='assets/images/Screenshot 2024-12-04 065455.png' alt=''> <p>That is the coal drill setup.</p> <h3>Uses:</h3> <p>The coal drill is useful as it gets you started when you make a new world to earn money and then buy more drills and research stations but that is for another day, for now you can make as many coal drills as you want to get the design engraved in your brain.</p> <hr> <h2>Written by Industrialist Setups Editor</h2>"
+                    }
+                }
+            ]
+        }
+    ]
+}
